@@ -20,3 +20,9 @@ Route::get('/', function () {
 Route::get('/coba-routing', function () {
     return 'Ini adalah hasil percobaan routing';
 });
+
+Route::get('/halo', function () {
+    return view('halo', [
+        "name" => "Jong Koding"
+    ]);
+});
