@@ -23,6 +23,8 @@ class Siswa extends Model
         'alamat',
         'tmp_lahir',
         'tgl_lahir',
-        'telepon'
+        'telepon',
+        'id_jurusan',
+        'nilai'
     ];
 }
